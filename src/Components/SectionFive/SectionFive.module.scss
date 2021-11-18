@@ -1,0 +1,47 @@
+@import '../../index.scss';
+.main_container{
+    padding-top: 50px;
+    .first_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include media("mobileonly") {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+        }
+
+        p{
+            padding-top: 30px;
+            color: #141414;
+            font-size: 20px;
+            font-weight: 400;
+            
+            span{
+                color: #141414;
+                font-size: 20px;
+                font-weight: 600;
+                
+
+            }
+        }
+    }
+    .second_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input{
+border-radius: 3px;
+color: #6B7280;
+font-size: 14px;
+margin: 0px 8px;
+
+        }
+        button{
+            background-color: #4f46E5;
+            font-size: 14px;
+            padding: 3.5px 10px 3.5px 10px;
+            
+        }
+    }
+}

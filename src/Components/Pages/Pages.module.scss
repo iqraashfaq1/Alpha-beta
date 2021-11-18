@@ -1,0 +1,31 @@
+@import '../../index.scss';
+.first_container{
+        padding-top: 20px;
+      
+    h1{
+        align-items: center;
+color: #111827;
+font-size: 40px;
+font-weight: 800;
+display: flex;
+justify-content: center;
+align-items: center;
+
+    }
+    p{
+        align-items: center;
+        color: #141414;
+        font-size: 15px;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .second_container{
+        padding: 2rem;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}

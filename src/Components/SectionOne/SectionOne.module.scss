@@ -1,0 +1,61 @@
+@import '../../index.scss';
+
+.main_container{
+    @include media("desktop") {
+
+    }
+
+
+    @include media("mobileonly") {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+        @include media("mobileonly") {
+           padding-top: 1rem;
+        }
+    }
+    .text_container{
+        padding: 9rem 1rem 1rem 5rem;
+        @include media("desktop") {
+            padding: 9rem 1rem 1rem 2rem;
+        }
+    
+    
+        @include media("mobileonly") {
+            padding: 1rem 0rem 0rem 1rem;
+        }
+        h1{
+            color: #111827;
+            line-height: 60px;
+            font-weight: 800;
+            font-size: 60px;
+        }
+        p{
+            color: #141414;
+            line-height: 28px;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        .btn_container{
+            .btn1_container{
+                color: #4F46E5;
+                font-size: 18px;
+                font-weight: 500;
+                background-color: white;
+
+            }
+            .btn2_container{
+                color: #4F46E5;
+                font-size: 18px;
+                font-weight: 500;
+                background-color: white;
+                margin-left: 0.5rem;
+
+            }
+        }
+    }
+}

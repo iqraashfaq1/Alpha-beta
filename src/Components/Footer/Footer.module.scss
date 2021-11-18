@@ -1,0 +1,25 @@
+@import '../../index.scss';
+.main_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    @include media("mobileonly") {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .text_container{
+        color: #141414;
+        font-weight: 700;
+        font-size: 16px;
+
+    }
+    .img_container{
+        
+        img{
+margin: 5px;
+        }
+
+    }
+}

@@ -1,0 +1,39 @@
+@import '../../index.scss';
+.bg-light{
+    // background-color: transparent !important;
+    --bs-bg-opacity: 0 !important;
+}
+navbar-collapse {
+  
+    @include media("mobileonly") {
+      background-color:#4F46E5;
+      float: right !important;
+      background-size: cover;
+    
+      
+    }
+  }
+  .nav-link {
+    color: #6B7280 !important;
+    @include media("mobileonly") {
+      color: #6B7280 !important;
+      display: flex;
+      flex-direction: column;
+    } 
+}
+.navbar-light{
+  .navbar-toggler{
+    @include media("mobileonly") {
+      border: none !important;
+      .navbar-toggler-icon {
+        width: 2rem !important;
+      }
+    }
+   
+  }
+}
+.navbar-toggler:focus{
+  @include media("mobileonly") {
+    box-shadow: none !important;
+  }
+}

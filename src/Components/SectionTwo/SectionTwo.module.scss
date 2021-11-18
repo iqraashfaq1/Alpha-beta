@@ -1,0 +1,29 @@
+@import '../../index.scss';
+.main_container{
+  
+
+        .inner_container{
+            padding: 3rem;
+            // border: 1px solid black;
+            img{
+                width: 100%;
+                height: auto;
+            }
+            h1{
+            color: #111827;
+            font-size: 35px;
+            font-weight: 800;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+          button{
+              background-color: #1F2937;
+              border-radius: 6px;
+              width: 100%;
+          }
+
+    
+    }
+   
+}

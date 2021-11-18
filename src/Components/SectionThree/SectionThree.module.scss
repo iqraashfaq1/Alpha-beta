@@ -1,0 +1,105 @@
+@import '../../index.scss';
+.main_container{
+   .btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        background-color: #4F46E5;
+       
+    }
+   }
+    .first_container{
+        h1{
+            align-items: center;
+            color: #111827;
+            font-size: 40px;
+            font-weight: 800;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @include media("mobileonly") {
+                font-size: 30px;
+                align-items: center;
+            }
+        
+        }
+        p{
+            align-items: center;
+            color: #141414;
+            font-size: 15px;
+            font-weight: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+    }
+    .img_container{
+      display: flex;
+      padding-top: 3rem;
+     
+        img{
+            width: 70%;
+            height: auto;
+            margin: 0 auto;
+           
+        }
+    }
+    .text_container{
+        padding-top: 30px;
+        @include media("mobileonly") {
+            padding-top: 50px;
+            padding: 1rem;
+        }
+
+        h1{
+            font-weight: 800;
+            font-size: 40px;
+            color: #111827;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include media("mobileonly") {
+                font-size: 30px;
+                align-items: center;
+            }
+        }
+        p{
+            font-weight: 400;
+            font-size: 20px;
+            color: #111827;
+            width: 80%;
+           padding-left: 13.5rem;
+           @include media("mobileonly") {
+            width: 100%;
+            padding-left: 0rem;
+        }
+
+        }
+        
+    }
+    .btnn_container{
+        padding-left: 13.5rem;
+        @include media("mobileonly") {
+            padding-left: 1rem;
+        }
+        .btn1_container{
+            color: #4F46E5;
+            font-size: 18px;
+            font-weight: 500;
+            background-color: white;
+
+        }
+        .btn2_container{
+            color: #4F46E5;
+            font-size: 18px;
+            font-weight: 500;
+            background-color: white;
+            margin-left: 0.5rem;
+
+        }
+    }
+
+}
